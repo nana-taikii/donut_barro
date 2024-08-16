@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fruit Website</title>
+    <link rel="stylesheet" href="css.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
+    <link rel="icon" href="images/donut_icon.png" type = "image/icon type">
+    <script src="main.js" defer></script>
+    <script src = "https://unpkg.com/aos@next/dist/aos.js"></script>
+    <link href="https://unpkg.com/aos@next/dist/aos.css" rel="stylesheet">
+    
+</head>
+<body>
+    <!--HEADER-->
+    <header>
+        <div class = "header_logo">
+            <a href="#" class = "logo">
+                <img src="images/donut_icon.png" alt="Donut Icon">
+                <h2>Donut</h2>
+            </a>
+        </div>
+
+        <ul class="navlist">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Gallery</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+
+        <div class="right-content">
+            <a href="#" class = "nav-btn"> Sign In</a>
+            <div class="bx bx-menu" id="menu-icon"></div>
+        </div>
+    </header>
+
+    <!--COVER SECTION-->
+    <section class="cover">
+        <div class="cover_container">
+            <div class = "cover_text">
+                <h3 data-aos = "fade-right" data-aos-duration="1400">Enjoy our fresh, delicious daily donuts.</h3>
+                <h1 data-aos = "zoom-in-left" data-aos-duration="1400" data-aos-delay="200">Delightful Donuts</h1>
+                <p  data-aos = "fade-right" data-aos-duration="1400" data-aos-delay="300">Crafted daily with the finest ingredients for a delightful treat here at Donut Barro.</p>
+            
+                <div class="description" data-aos = "fade-right" data-aos-duration="1400" data-aos-delay="300">
+                    <a href="#" class = "btn">Order Now <img src="images/donut_icon2.png" alt="Donut Icon"></a>
+                    <a href="#" class = "price">Php 35.00 | <span> Regular Price</span></a>
+                </div>
+            </div>
+
+            <div class = "cover_image" data-aos = "zoom-in" data-aos-duration="1400" data-aos-delay="300">
+                <img src="images/donut_cover.png" alt="Donut Cover">
+            </div>
+        </div>
+    </section>
+
+    <!--ICONS-->
+    <section class="icons">
+        <section class="section_container">
+            <a href="#" data-aos = "fade-in" data-aos-duration="1400" data-aos-delay="600"><i class="ri-facebook-fill"></i></a>
+            <a href="#" data-aos = "fade-in" data-aos-duration="1400" data-aos-delay="700"><i class="ri-youtube-fill"></i></a>
+            <a href="#" data-aos = "fade-in" data-aos-duration="1400" data-aos-delay="800"><i class="ri-twitter-fill"></i></a>
+            <div class="scroll" data-aos = "fade-in" data-aos-duration="1400" data-aos-delay="550">
+                <a href="#" >
+                    <i class="ri-scroll-to-bottom-line scroll_down"></i>
+                    Scroll Down
+                </a>
+            </div>
+        </section>
+        
+    </section>
+
+    <section class="about">
+        <div class="about_container">
+            <div class="about_content">
+                <img src="images/pink_donut.png" alt="Pink Donut" data-aos ='zoom-in' data-aos-duration = "1400">
+                <div class = "text_section" data-aos ='zoom-in' data-aos-duration = "1400">
+                    <h1>Our Story</h1>
+                    <p>Founded with a passion for creating the perfect donut, 
+                        Donut Barro began as a small family venture. Our journey 
+                        started in a cozy kitchen, where we experimented with recipes
+                        and perfected our craft. Today, we’re proud to serve our community 
+                        with donuts that are handmade with love, using only the finest 
+                        ingredients.</p>
+                    <button class = "main_buttons">Read More</button>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--DELIVERY-->
+    <section class="delivery">
+        <div class="delivery_container">
+            <div class="delivery_content">
+                <div class="left_section">
+                    <h1 data-aos="fade-right" data-aos-duration="1400">Delivery Service</h1>
+                    <p data-aos="fade-right" data-aos-duration="1400" data-aos-delay = "300">At Donut Barro, we bring the deliciousness right to your doorstep!
+                        Our delivery service ensures you can enjoy fresh, handcrafted donuts
+                        without leaving the comfort of your home. Whether you're treating yourself,
+                        hosting a gathering, or surprising someone special, our quick and reliable
+                        delivery makes it easy to savor your favorite donuts anytime, anywhere.
+                        Just place your order, and we'll handle the rest, delivering joy and 
+                        sweetness straight to you.</p>
+                        <div class="button_section">
+                            <div class="button_section1" data-aos="fade-right" data-aos-duration="1400">
+                                <button class = "main_buttons" id = "btn_contact">Contact Us</button>
+                                <button class = "main_buttons" id = "btn_check_menu">Check Menu</button>
+                            </div>
+                            <div class="button_section2">
+                                <div>
+                                    <button data-aos="fade-in" data-aos-duration="1400" data-aos-delay = "700"><i class='bx bxs-cart' ></i>Online Delivery</button>
+                                    <button data-aos="fade-in" data-aos-duration="1400" data-aos-delay = "900"><i class='bx bxs-detail' ></i>Exclusive Details</button>
+                                </div>
+                                <div>
+                                    <button data-aos="fade-in" data-aos-duration="1400" data-aos-delay = "1100"><i class='bx bxs-detail' ></i>Feedback</button>
+                                    <button data-aos="fade-in" data-aos-duration="1400" data-aos-delay = "1300"><i class='bx bxs-food-menu' ></i>All Orders</button>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                
+                <div class="right_section">
+                    <div class = "right_content">
+                        <img src="images/chocolate_donut_pink_toppings.png" alt="Chocolate Donut" data-aos="zoom-in" data-aos-duration="1400">
+                        <div class = "side_image" data-aos="zoom-in" data-aos-duration="1400">
+                            <div class = "image_side">
+                                <img src="images/chocolate_donut_pink_toppings.png" alt="Chocolate Donut">
+                                <div>
+                                    <h5>Chocolate Glaze</h5>
+                                    <p>Available Now</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!--MENU-->
+    <section class="menu">
+        <div class="menu_container">
+            <div class="menu_content">
+                <div class="menu_text_section">
+                    <h1 data-aos="fade-down" data-aos-duration="1400">Our Menu</h1>
+                    <p data-aos="fade-down" data-aos-duration="1400" data-aos-delay = "300">Explore our latest menu with delicious taste for you. 
+                        We offer a diverse flavor crafted with care and passion. 
+                        Satisfy your cravings with our freshly made donuts</p>
+                </div>
+
+                <div class = "menu_section">
+                    <div class = "image_section">
+                        <div class = "image_container" data-aos="zoom-in" data-aos-duration="1400" data-aos-delay = "500">
+                            <img src="images/glazed_donut.jpeg" alt="Glazed Donut">
+                        </div>
+                        <div class = "image_description">
+                            <h3>Glazed Donut</h3>
+                            <p>Sweet, glossy, fluffy perfection</p>
+                            <div class = "menu_button">
+                                <h3>Php28.00</h3>
+                                <button class = "main_buttons">Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class = "image_section">
+                        <div class = "image_container" data-aos="zoom-in" data-aos-duration="1400" data-aos-delay = "600">
+                            <img src="images/chocolate_icing.jpg" alt='Chocolate Icing'>
+                        </div>
+                        <div class = "image_description">
+                            <h3>Chocolate Icing</h3>
+                            <p> Rich, chocolate-covered indulgence.</p>
+                            <div class = "menu_button">
+                                <h3>Php35.00</h3>
+                                <button class = "main_buttons">Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class = "image_section">
+                        <div class = "image_container" data-aos="zoom-in" data-aos-duration="1400" data-aos-delay = "700">
+                            <img src="images/jelly_filled.jpg" alt='Jelly Filled'>
+                        </div>
+                        <div class = "image_description">
+                            <h3>Jelly Filled</h3>
+                            <p>Sweet, fruity-filled delight.</p>
+                            <div class = "menu_button">
+                                <h3>Php35.00</h3>
+                                <button class = "main_buttons">Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class = "image_section">
+                        <div class = "image_container" data-aos="zoom-in" data-aos-duration="1400" data-aos-delay = "800">
+                            <img src="images/pink_glazed.jpg" alt='Pink Glazed'>
+                        </div>
+                        <div class = "image_description">
+                            <h3>Pink Glazed</h3>
+                            <p>Vibrant, sugary pink treat</p>
+                            <div class = "menu_button">
+                                <h3>Php35.00</h3>
+                                <button class = "main_buttons">Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class = "image_section">
+                        <div class = "image_container" data-aos="zoom-in" data-aos-duration="1400" data-aos-delay = "900">
+                            <img src="images/vanilla_crunch.jpeg" alt="Vanilla Crunch">
+                        </div>
+                        <div class = "image_description">
+                            <h3>Vanilla Crunch</h3>
+                            <p>Crispy, vanilla-infused sweetness.</p>
+                            <div class = "menu_button">
+                                <h3>Php30.00</h3>
+                                <button class = "main_buttons">Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class = "image_section">
+                        <div class = "image_container" data-aos="zoom-in" data-aos-duration="1400" data-aos-delay = "1000">
+                            <img src="images/Powdered_donut.jpg" alt='Powdered Donut'>
+                        </div>
+                        <div class = "image_description">
+                            <h3>Powdered Donut</h3>
+                            <p> Soft, sugar-dusted classic.</p>
+                            <div class = "menu_button">
+                                <h3>Php32.00</h3>
+                                <button class = "main_buttons">Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button class = "main_buttons" id = "explore_btn">Explore our Menu</button>
+    </section>
+
+    
+<!--CUSTOMER RATINGS-->
+<section class="customer">
+    <img src="images/choco_donut.png" alt="Pink Donut" id = "pink_donut" data-aos="fade-down" data-aos-duration="1400">
+    <div class="customer_container">
+        <div class="customer_content">
+            <div class="left_section" data-aos="zoom-in" data-aos-duration="1400">
+                <img src="images/stock_donut.png" alt="Donuts"> 
+            </div>
+            <div class="right_section">
+                <div class="text_section">
+                    <h1>What Our Customer Say</h1>
+                    <p>At Donut's Barro, our customers rave about our delectable treats.
+                         From the rich flavors to the perfect textures, see why everyone loves our donuts!</p>
+                </div>
+                <div class="rating_container">
+                    <div class="rating_content" data-aos="zoom-in" data-aos-duration="1400" >
+                        <div class="customer_profile">
+                            <img src="images/brian_barro.png" alt="Brian Barro">
+                            <div>
+                                <h3>Laurence Barro</h3>
+                                <p>Business Executive</p>
+                            </div>
+                        </div>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <p>In my profession, I frequently entertain clients, and 
+                            Trails has become my go-to donut shop during my free time.</p>
+                        <a href = "#">Learn More <i class='bx bx-right-arrow-alt'></i></a>
+                    </div>
+
+
+                    <div class="rating_content" data-aos="zoom-in" data-aos-duration="1400" data-aos-delay = "500">
+                        <div class="customer_profile">
+                            <img src="images/donna_banzuela.png" alt="Brian Barro">
+                            <div>
+                                <h3>Donna Banzuela</h3>
+                                <p>Marketing Executive</p>
+                            </div>
+                        </div>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <p>
+                            Donut Barro is my go-to for satisfying my sweet cravings.</p>
+                        <a href = "#">Learn More <i class='bx bx-right-arrow-alt'></i></a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!--SUBSCRIBE-->
+<div>
+    <section class="email">
+        <div class="email_container">
+            <div class="email_content">
+                <h1>Enter Your Email To Receive Our News & Events</h1>
+                <form action="#">
+                    <input type="Email" placeholder = "Enter your email Here">
+                    <button type="button">Subscribe</button>
+                </form>
+            </div>
+        </div>
+
+    </section>
+
+
+    <footer>
+        <div class="footer_container">
+            <div class="footer_content">
+                <div class="left_section">
+                   <h3 class = "title">Resources</h3>
+                  <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Gallery</a></li>
+                    <li><a href="#">Menu</a></li>
+                    <li><a href="#">Delivery</a></li>
+                  </ul>
+                </div>
+
+                <div class="middle_section">
+                    <h3 class = "title">Follow Us</h3>
+                   <ul>
+                     <li><a href="#"><i class='bx bxl-facebook' ></i>Facebook</a></li>
+                     <li><a href="#"><i class='bx bxl-twitter' ></i>Twitter</a></li>
+                     <li><a href="#"><i class='bx bxl-youtube' ></i>Youtube</a></li>
+                     <li><a href="#"><i class='bx bxl-instagram-alt' ></i>Instagram</a></li>
+                     <li><a href="#"><i class='bx bxl-tiktok' ></i>Tiktok</a></li>
+                   </ul>
+                 </div>
+
+
+                 
+                <div class="right_section">
+                    <h3 class = "title">Contact Us</h3>
+                    <div class="contact_us_container">
+                        <div class="contact_content">
+                            <i class='bx bxs-phone-call' ></i>
+                            <div class = "details">
+                                <h4>Call Us</h4>
+                                <p>09770432579</p>
+                            </div>
+                        </div>
+                        <div class="contact_content">
+                            <i class='bx bxs-envelope' ></i>
+                            <div class = "details">
+                                <h4>Email Us</h4>
+                                <p>42laurenceab@gmail.com</p>
+                            </div>
+                        </div>
+                        <div class="contact_content">
+                            <i class='bx bx-current-location' ></i>
+                            <div class = "details">
+                                <h4>Location</h4>
+                                <p>Iriga City</p>
+                            </div>
+                        </div>
+                    </div>
+                 </div>
+
+            </div>
+        </div>
+    
+    <section class = "footer_end">
+        <div class = "header_logo">
+            <a href="#" class = "logo">
+                <img src="images/donut_icon.png" alt="Donut Icon">
+                <h2>Donut</h2>
+            </a>
+        </div>
+        <div class = 'text'>
+            <p>@2024Copyright. All Rights Reserved</p>
+        </div>
+    </section>
+        
+    </footer>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!--Scroll-->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            AOS.init({
+                offset: 1,
+            });
+        });
+    </script>
+     
+</body>
+</html>
